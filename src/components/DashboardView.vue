@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="font-PlusJakartaSans flex flex-col justify-between gap-8 text-lg max-w-7xl overflow-y-auto overflow-x-hidden bg-white">
+    <div class="font-PlusJakartaSans flex flex-col justify-between gap-8 max-w-7xl h-full text-lg  overflow-y-auto overflow-x-hidden bg-white">
         <div class="flex gap-32">
             <div class="flex flex-col gap-4">
                 <h1 class="text-3xl font-bold">Hi, Skylar Dias</h1>
@@ -42,29 +42,10 @@ defineProps({
                     </div>
                 </div>
             </div>
-            <!-- <div class="flex flex-col gap-6">
-                <p>Activity</p>
-                <div class=" flex outline-offset-8 outline outline-white">
-                    
-                    <div>
-                        <ul>
-                            <li>3</li>
-                            <li>2</li>
-                            <li>1</li>
-                            
-                        </ul>
-                    </div>
-                        <img src="src/assets/images/SecondLinePictures/diagramma.svg" alt="">
-                    </div>
-                    <div class="bg-[#141522] rounded-lg text-white w-16 h-12 ">
-                        <p>2Tasks</p>
-                    </div>
-            </div>           -->
+            <img src="src/assets/images/Dashboardpictures/diagramma.svg" alt="">
         </div>
-        <DashboardContext></DashboardContext>
-        
-
-          
-       
+        <DashboardContext></DashboardContext>     
+        <div class="float-right">
+        </div>   
     </div>
 </template>
