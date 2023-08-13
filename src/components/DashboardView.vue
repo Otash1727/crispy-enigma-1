@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="font-PlusJakartaSans flex flex-col justify-between gap-8 max-w-7xl h-full text-lg  overflow-y-auto overflow-x-hidden bg-white">
+    <div class="font-PlusJakartaSans flex flex-col justify-between gap-8 max-w-full text-lg  overflow-y-auto overflow-x-hidden bg-white">
         <div class="flex gap-32">
             <div class="flex flex-col gap-4">
                 <h1 class="text-3xl font-bold">Hi, Skylar Dias</h1>
