@@ -28,17 +28,17 @@ defineProps({
             </div>
     </div>
     <div class="flex justify-between p-8 items-center text-2xl">
-        <div class="flex">
+        <div class="flex border-2">
             <input type="text" placeholder="Search Task" class="rounded-xl  border-1">  
             <button>
                 <slot name="slot4"></slot>
             </button>
         </div>
-        <div class="flex">
+        <div class="flex border-2">
             <slot name="slot5"></slot>
             <button>{{category}}</button>
         </div>
-        <div class="flex">
+        <div class="flex border-2">
             <slot name="slot6"></slot>
             <button>{{ sort }}</button>
         </div>

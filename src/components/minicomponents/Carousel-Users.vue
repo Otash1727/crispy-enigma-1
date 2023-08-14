@@ -40,7 +40,8 @@ defineProps({
             <div class="p-4">
                 <button class="text-green-500">{{ fallow }}</button>
             </div>
-        </div>    
+        </div>
+        <slot name="portfolio"></slot>  
         <div class="flex gap-4">    
             <div>
                 <img src="src/assets/images/Dashboardpictures/note-2.png" alt="">
