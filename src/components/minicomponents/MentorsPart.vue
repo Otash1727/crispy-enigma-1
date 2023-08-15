@@ -29,7 +29,7 @@ import CarouselUsers from './Carousel-Users.vue';
             </CarouselUsers>
         </div>
     </div>
-    <div class="flex justify-between ">
+    <div class="flex justify-between">
         <div class="bg-white rounded-xl p-8">
             <CarouselUsers name="Anna White" job="3D Design" task="60 Task" fallow="Followed " reviews="4,8 (870 Reviews)">
                 <img src="src/assets/images/Mentorspictures/AnnaWhite.png" alt="Anna White">

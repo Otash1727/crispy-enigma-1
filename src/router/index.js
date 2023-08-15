@@ -32,6 +32,11 @@ const router = createRouter({
           path:'mentors',
           name:'Mentors',
           component:()=>import ('../views/MentorsView.vue')
+        },
+        {
+          path:'message',
+          name:'Message',
+          component:()=>import('../views/MessageView.vue')
         }
       ]
     },
