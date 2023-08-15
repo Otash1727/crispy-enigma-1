@@ -2,6 +2,7 @@
 import ExploreTask from './minicomponents/ExploreTask.vue';
 import CarouselButton from './minicomponents/Carousel-button.vue';
 import CarouselUsers from './minicomponents/Carousel-Users.vue';
+import MentorsPart from './minicomponents/MentorsPart.vue';
 </script>
 
 <template>
@@ -40,17 +41,8 @@ import CarouselUsers from './minicomponents/Carousel-Users.vue';
             </div>
         </div>
         <h1 class="text-3xl font-bold p-8">Mentors</h1>
-        <div class="flex flex-col">
-            <div class="flex justify-between">   
-                <div class="bg-white rounded-xl p-8">
-                    <CarouselUsers name="Jessica Jane" job="Web Developer" fallow="+ Follow" task="40 Task" reviews="4,7  (750 Reviews)">
-                        <img src="src/assets/images/Mentorspictures/JessicaJane.png" alt="">
-                        <template #portfolio>
-                            <h1>Hi, I'm Jessica Jane. I am a doctoral student at <br> Harvard University majoring in Web . . . </h1>
-                        </template>
-                    </CarouselUsers>
-                </div>
-            </div>
+        <div class="flex flex-col gap-10 items-stretch">                       
+            <MentorsPart></MentorsPart>
         </div>
     </div>
 </template>
